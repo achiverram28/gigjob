@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.73" height="70.73" viewBox="0 0 70.73 70.73">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1703" data-name="Path 1703" d="M0,0H70.73V70.73H55.666L0,15.072Z" transform="translate(0 0)" fill="#e37070"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Group_2280" data-name="Group 2280" transform="translate(0 0)">
+      <path id="Rectangle_2181" data-name="Rectangle 2181" d="M5.3,5.3V26.524H26.524V5.3H5.3M0,0H31.828V31.828H0Z" transform="translate(0 0)" fill="#486dfc"/>
+      <rect id="Rectangle_2181-2" data-name="Rectangle 2181" width="11" height="11" transform="translate(10.43 10.369)" fill="#486dfc"/>
+      <path id="Rectangle_2181-3" data-name="Rectangle 2181" d="M5.3,5.3V26.524H26.524V5.3H5.3M0,0H31.828V31.828H0Z" transform="translate(38.901 0)" fill="#486dfc"/>
+      <rect id="Rectangle_2182" data-name="Rectangle 2182" width="11" height="11" transform="translate(49.43 10.369)" fill="#486dfc"/>
+      <g id="Group_2278" data-name="Group 2278" transform="translate(39.816 39.789)">
+        <path id="Line_102" data-name="Line 102" d="M2.3,30.913H-3V0H2.3Z" transform="translate(28.608)" fill="#486dfc"/>
+        <path id="Line_102-2" data-name="Line 102" d="M5.3,30.913H0V0H5.3Z" transform="translate(0 30.913) rotate(-90)" fill="#486dfc"/>
+        <path id="Line_102-3" data-name="Line 102" d="M2.3,14.262H-3V0H2.3Z" transform="translate(17.115 2.652)" fill="#486dfc"/>
+        <path id="Line_102-4" data-name="Line 102" d="M2.3,14.262H-3V0H2.3Z" transform="translate(6.505 2.652)" fill="#486dfc"/>
+      </g>
+      <g id="Group_2279" data-name="Group 2279" transform="translate(24.637 38.905)">
+        <path id="Line_102-5" data-name="Line 102" d="M4.191,30.913H-3V0H4.191Z" transform="translate(3)" fill="#486dfc"/>
+      </g>
+    </g>
+  </g>
+</svg>
