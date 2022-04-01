@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #486dfc;
+  font-size: 75%;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-page {
+  float: left;
+  height: 100vh;
+}
+
+/* Right-div */
+.blue-background {
+  margin-left: 50%;
+  height: 100vh;
+  padding: 0;
+  background-color: #5a71e1;
+}
+
+.office-img {
+  padding-top: 176px;
+  width: 100%;
+}
+
+/* Company symbol and description */
+.gig-symbol {
+  position: fixed;
+  left: 40px;
+  top: 50px;
+}
+
+.company-name {
+  font-size: 120%;
+  position: absolute;
+  left: 110px;
+  top: 30px;
+  padding-left: 3%;
+  border-left: 3px solid lightgrey;
+
+  border-spacing: 20px;
+}
+
+.company-desc {
+  font-size: 60%;
+  padding-left: 3%;
+  position: absolute;
+  left: 110px;
+  top: 65px;
+  border-left: 3px solid lightgrey;
+}
+
+/* language */
+.select-language {
+  color: #ffffff;
+  position: absolute;
+  right: 120px;
+  top: 3.3%;
+  font-size: 16px;
+}
+
+.languages {
+  color: #ffffff;
+  position: absolute;
+  right: 0.5%;
+  top: 4.3%;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  font-size: 80%;
+}
+
+/* inputs and login button */
+.email {
+  border: 2px solid #c9c9c9;
+  border-radius: 7px;
+  opacity: 1;
+  width: 400px;
+  height: 35px;
+  position: absolute;
+  top: 240px;
+  left: 100px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.password {
+  border: 2px solid #c9c9c9;
+  border-radius: 7px;
+  opacity: 1;
+  width: 400px;
+  height: 35px;
+  position: absolute;
+  top: 295px;
+  left: 100px;
+  margin: 20px 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  background: transparent url("images/Path\ 1566.svg") 97% 0% no-repeat
+    padding-box;
+  background-position-y: 50%;
+  opacity: 1;
+}
+
+.btn {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  left: 100px;
+  top: 390px;
+  background-color: #486dfc;
+  width: 406px;
+  height: 35px;
+  border: 2px solid #486dfc;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+/* Login */
+.login-heading {
+  position: absolute;
+  left: 103px;
+  top: 150px;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+/* QR-Code */
+.QR-login {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bold;
+  left: 343px;
+  top: 175px;
+  color: #fd7722;
+  border: solid #fd7722;
+  border-radius: 6px;
+  padding: 10px 10px 10px 10px;
+}
+
+.qr-code {
+  position: absolute;
+  left: 453px;
+  top: 175px;
+  width: 45px;
+}
+
+/* Forgot password */
+.forgot-password {
+  position: absolute;
+  left: 100px;
+  top: 435px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  border-style: solid;
+  border-color: #b5b5b5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: thin;
+}
+
+.phone-signin {
+  position: absolute;
+  left: 348px;
+  top: 435px;
+  padding-bottom: 30px;
+  border-style: solid;
+  border-color: #b5b5b5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: thin;
+}
+
+.or {
+  color: #b5b5b5;
+  position: absolute;
+  left: 295px;
+  top: 450px;
+}
+
+/* Social Media login */
+.social-media {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  top: 500px;
+  left: 203px;
+}
+
+.media-icons {
+  width: 45px;
+  padding: 0 10px 0 10px;
+}
+
+/* Support */
+.support {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 10px 0 10px;
+  background-color: #486dfc;
+  border-style: solid;
+  border-color: #486dfc70;
+  border-radius: 100px;
+  position: absolute;
+  left: 40%;
+  top: 93%;
+}
+
+.support:hover {
+  background-color: blue;
+}
+.arrows {
+  background-image: url("images/Group\ 2260.svg");
+  background-position: calc(100% - 0.5rem), 100% 0;
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+}
+.a1 {
+  font-size: 100%;
+}
+@media only screen and (max-width: 1021px) {
+  .login-heading {
+    left: 4%;
+  }
+  .email {
+    left: 4%;
+  }
+  .password {
+    left: 4%;
+  }
+  .btn {
+    left: 4%;
+  }
+  .forgot-password {
+    left: 4%;
+  }
+  .phone-signin {
+    left: 29%;
+  }
+  .QR-login {
+    left: 30%;
+  }
+  .qr-code {
+    left: 42%;
+  }
+  .or {
+    left: 23%;
+  }
+  .social-media {
+    left: 14%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .login-heading {
+    left: 1%;
+  }
+  .email {
+    left: 1%;
+  }
+  .password {
+    left: 1%;
+  }
+  .btn {
+    left: 1%;
+  }
+  .forgot-password {
+    left: 1%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .login-heading {
+    left: 0;
+  }
+  .email {
+    left: 0;
+  }
+  .password {
+    left: 0;
+  }
+  .btn {
+    left: 0;
+  }
+  .forgot-password {
+    left: 0;
+  }
+  .social-media {
+    left: 12%;
+  }
+  .blue-background {
+    position: fixed;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .email {
+    width: 200px;
+  }
+  .password {
+    width: 200px;
+  }
+  .btn {
+    width: 200px;
+  }
+  .gig-symbol {
+    left: 0;
+  }
+  .social-media {
+    left: 10%;
+  }
+  .or {
+    left: 25%;
+  }
+}
+@media only screen and (max-height: 625px) {
+  .gig-symbol {
+    top: 2%;
+  }
+  .company-name {
+    top: 1%;
+  }
+  .company-desc {
+    top: 7%;
+  }
+  .login-heading {
+    top: 20%;
+  }
+  .QR-login {
+    top: 25%;
+  }
+  .qr-code {
+    top: 25%;
+  }
+  .email {
+    top: 35%;
+  }
+  .password {
+    top: 43%;
+  }
+  .btn {
+    top: 55%;
+  }
+  .forgot-password {
+    top: 65%;
+  }
+  .phone-signin {
+    top: 65%;
+  }
+  .or {
+    top: 68%;
+  }
+  .social-media {
+    top: 75%;
+  }
+}
+@media only screen and (max-height: 625px) {
+  .password {
+    top: 40%;
+  }
+}
+@media only screen and (max-height: 437px) {
+  .social-media {
+    top: 72%;
+  }
+  .or {
+    top: 65%;
+  }
+  .company-name {
+    top: 1%;
+  }
+  .company-desc {
+    top: 10%;
+  }
+}
+@media only screen and (max-height: 351px) {
+  .login-heading {
+    top: 10%;
+  }
+  .QR-login {
+    top: 20%;
+  }
+  .qr-code {
+    top: 20%;
+  }
+}
